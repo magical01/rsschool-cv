@@ -76,3 +76,9 @@ points(['1:0','2:0','3:0','4:4','2:2','3:3','1:4','2:3','2:4','3:4']);
 
 At the moment there was no work experience.
 
+# Education:
+This is the first course for me.
+
+# English:
+
+A1. I try to improve my English in every way. The smartphone app is Duolingo. I often use Google translate.
