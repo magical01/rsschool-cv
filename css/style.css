@@ -1,0 +1,45 @@
+
+.page__body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #E5E5E5
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.contacts__list {
+  padding: 0;
+  list-style: none;
+}
+
+.summary-descr {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.examples-one {
+  max-width: 30%;
+  padding: 15px;
+  line-height: 30px;
+}
+.examples-two {
+  max-width: 30%;
+  padding: 15px;
+  line-height: 30px;
+}
+.examples-three {
+  max-width: 30%;
+  padding: 15px;
+  line-height: 30px;
+}
+
+.examples__link {
+  display: block;
+  padding-bottom: 10px;
+  color: #FF9900;
+}
+
