@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denis Verzakov</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page__body">
+  <header class="header">
+    <div class="container">
+      <h1 class="header-name">Denis Verzakov</h1>
+      <figure class="figure-image">
+        <img src="img/img.jpg" alt="Me" width="250" height="auto" class="image">
+      </figure>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="contacts">
+      <div class="container">
+        <h2 class="contacts-title">
+          Contact info:
+        </h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">Perm, Russia</li>
+          <li class="contacts__item">Email: denis.verzakov.015@gmail.com</li>
+          <li class="contacts__item">Discord: Denis Verzakov (@magical01)</li>
+          <li class="contacts__item">Telegram: @qwewsxx</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="summary">
+      <div class="container">
+        <h2 class="summary-title">
+          Summary:
+
+        </h2>
+        <p class="summary-descr">
+          I am studying at a technical university in the 3rd year, the direction of Management in technical systems. My goal is to become Front-end developer. I am ready to spend 6-8 hours a day for learning. My strengths are the desire to learn, conscientiousness, increased efficiency, dedication, discipline, attention to detail, sociability. I really like to learn new things and get better every day.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="container">
+        <h2 class="skills-title">
+          Skills:
+        </h2>
+        <ul class="skills__list">
+          <li class="skills__item">HTML/CSS/JS basics (7-8 kyu Codewars)</li>
+          <li class="skills__item">Adaptive layout</li>
+          <li class="skills__item">BEM</li>
+          <li class="skills__item">SCSS</li>
+          <li class="skills__item">Bootstrap</li>
+          <li class="skills__item">Gulp</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="examples">
+      <div class="container">
+        <h2 class="examples">
+          Code Examples:
+        </h2>
+        <div class="examples-one">
+          function abbrevName(name){
+            let arr = name.split(' ');
+            let initial = arr[0][0] + "." + arr[1][0];
+             let initialUpp = initial.toUpperCase();
+             return initialUpp;
+           }
+           
+           abbrevName("Josef Aldo");
+        </div>
+        <div class="examples-two">
+          function lovefunc(flower1, flower2){
+            // moment of truth
+            if (flower1 % 2 == 0 && flower2 % 2 == 1) {
+            return true;
+          }
+          
+          if (flower1 % 2 == 1 && flower2 % 2 == 0) {
+            return true;
+          }
+          return false;
+          }
+          
+          lovefunc(1,4);
+        </div>
+        <div class="examples-three">
+          function points(games) {
+            // your code here
+            let score = 0;
+            for (let elem of games) {
+              if (elem[0] > elem[2]) {
+              score += 3;
+            }
+            if (elem[0] == elem[2]) {
+              score += 1;
+            }
+            if (elem[0] < elem[2]) {
+              score += 0;
+              
+            }
+            } return score;
+          }
+          
+          points(['1:0','2:0','3:0','4:4','2:2','3:3','1:4','2:3','2:4','3:4']);
+        </div>
+        <div class="examples-links">
+          <a href="https://magical01.github.io/GiftStore/" class="examples__link">Gift Store</a>
+          <a href="https://magical01.github.io/magical01.github.com.io/" class="examples__link">Evclid</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="container">
+        <h2 class="experience-title">
+          Experience:
+        </h2>
+        <p class="experience-descr">
+          At the moment there was no work experience.
+        </p>
+      </div>
+    </section>
+
+    <section class="education">
+      <div class="container">
+        <h2 class="education-title">
+          Education:
+        </h2>
+        <p class="education-descr">
+          This is the first course for me.
+        </p>
+      </div>
+    </section>
+
+    <section class="english">
+      <div class="container">
+        <h2 class="english-title">
+          English:
+        </h2>
+        <p class="english-descr">
+          A1. I try to improve my English in every way. The smartphone app is Duolingo. I often use Google translate.
+        </p>
+      </div>
+    </section>
+  </main>
+
+
+</body>
+</html>
