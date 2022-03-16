@@ -5,7 +5,7 @@
 - **Discord: Denis Verzakov (@magical01)**
 - **Telegram: @qwewsxx**
 # Summary:
- I am studying at a technical university in the 3rd year, the direction of Management in technical systems My goal is to become  Front-end developer. I am ready to spend 6-8 hours a day for learning. My strengths are the desire to learn, conscientiousness, increased efficiency, dedication, discipline, attention to detail, sociability. I really like to learn new things and get better every day.
+ I am studying at a technical university in the 3rd year, the direction of Management in technical systems. My goal is to become  Front-end developer. I am ready to spend 6-8 hours a day for learning. My strengths are the desire to learn, conscientiousness, increased efficiency, dedication, discipline, attention to detail, sociability. I really like to learn new things and get better every day.
 
 # Skills:
 
@@ -16,7 +16,7 @@
 - Bootstrap
 - Gulp
 
-## Code examples: 
+# Code examples: 
 
 ```
  function abbrevName(name){
@@ -66,9 +66,9 @@ function points(games) {
 points(['1:0','2:0','3:0','4:4','2:2','3:3','1:4','2:3','2:4','3:4']);
 ```
 
-- [Gift Store] https://magical01.github.io/GiftStore/
+- [Gift Store] (https://magical01.github.io/GiftStore/)
 
-- [Evclid] https://magical01.github.io/magical01.github.com.io/
+- [Evclid] (https://magical01.github.io/magical01.github.com.io/)
 
 
 
