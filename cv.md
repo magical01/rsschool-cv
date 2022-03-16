@@ -16,3 +16,63 @@
 - Bootstrap
 - Gulp
 
+## Code examples: 
+
+```
+ function abbrevName(name){
+ let arr = name.split(' ');
+ let initial = arr[0][0] + "." + arr[1][0];
+  let initialUpp = initial.toUpperCase();
+  return initialUpp;
+}
+
+abbrevName("Josef Aldo");
+ ```
+
+ ```
+  function lovefunc(flower1, flower2){
+  // moment of truth
+  if (flower1 % 2 == 0 && flower2 % 2 == 1) {
+  return true;
+}
+
+if (flower1 % 2 == 1 && flower2 % 2 == 0) {
+  return true;
+}
+return false;
+}
+
+lovefunc(1,4);
+
+```
+```
+function points(games) {
+  // your code here
+  let score = 0;
+  for (let elem of games) {
+    if (elem[0] > elem[2]) {
+    score += 3;
+  }
+  if (elem[0] == elem[2]) {
+    score += 1;
+  }
+  if (elem[0] < elem[2]) {
+    score += 0;
+    
+  }
+  } return score;
+}
+
+points(['1:0','2:0','3:0','4:4','2:2','3:3','1:4','2:3','2:4','3:4']);
+```
+
+- [Gift Store] https://magical01.github.io/GiftStore/
+
+- [Evclid] https://magical01.github.io/magical01.github.com.io/
+
+
+
+# Experience:
+
+At the moment there was no work experience.
+
