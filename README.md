@@ -1,1 +1,1 @@
-# https://magical01.github.io/rsschool-cv/
+# https://magical01.github.io/rsschool-cv/cv
